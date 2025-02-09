@@ -259,11 +259,11 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "VitaHealth Site",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      'award – winning ESSENTIAL BODY CARE shaped in science',
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://www.vitahealth.net.au/",
   },
   {
     title: "Interactive Cards Portfolio",
