@@ -90,19 +90,19 @@ export const SKILL_DATA = [
 
 export const SOCIALS = [
   {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    name: "Discord",
+    icon: RxDiscordLogo,
+    link: "https://dicord.com",
   },
   {
-    name: "Facebook",
+    name: "Slark",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://slack.com",
   },
   {
     name: "Twitter",
     icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    link: "https://telegram.com",
   },
 ] as const;
 
@@ -360,5 +360,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/Abram531/portfolio",
 };

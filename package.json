@@ -9,12 +9,18 @@
     "lint": "next lint"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Abram Linken",
+    "email": "ast57531@gmail.com",
+    "url": "https://github.com/Abram531"
   },
   "description": "Welcome to my full stack Next.js 14 space portfolio.",
   "keywords": [
+    "abram",
+    "Abram",
+    "Abram Linken",
+    "ABRAM",
+    "ABRAM LINKEN",
+    "abram linken",
     "reactjs",
     "nextjs",
     "vercel",
@@ -48,23 +54,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/space-portfolioit"
+    "url": "https://github.com/Abram531/portfolio"
   },
   "homepage": "https://github.com/sanidhyy/space-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/space-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/Abram531/portfolio/issues",
+    "email": "ast59531@gmail.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
   "dependencies": {
     "@heroicons/react": "^2.1.1",
     "@react-three/drei": "^9.93.0",
