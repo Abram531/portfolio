@@ -1,192 +1,275 @@
-<a name="readme-top"></a>
+<p align="center" width="100%">
+    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
+</p>
 
-# Modern Space Theme Portfolio using Next.js 14 and Three.js
+---
 
-![Modern Space Theme Portfolio using Next.js 14 and Three.js](/.github/images/img_main.png "Modern Space Theme Portfolio using Next.js 14 and Three.js")
+# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
 
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/pulls "GitHub pull requests")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/451ed0e0-3541-474e-896a-4987e30a7722/deploy-status)](https://spaceportfolio.netlify.app/ "Netlify Status")
+---
 
-<!-- Table of Contents -->
-<details>
+# Developer Portfolio
 
-<summary>
+#### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
 
-# :notebook_with_decorative_cover: Table of Contents
+---
 
-</summary>
+# Demo :movie_camera:
 
-- [Folder Structure](#bangbang-folder-structure)
-- [Getting Started](#toolbox-getting-started)
-- [Screenshots](#camera-screenshots)
-- [Tech Stack](#gear-tech-stack)
-- [Stats](#wrench-stats)
-- [Contribute](#raised_hands-contribute)
-- [Acknowledgements](#gem-acknowledgements)
-- [Buy Me a Coffee](#coffee-buy-me-a-coffee)
-- [Follow Me](#rocket-follow-me)
-- [Learn More](#books-learn-more)
-- [Deploy on Vercel](#page_with_curl-deploy-on-vercel)
-- [Give A Star](#star-give-a-star)
-- [Star History](#star2-star-history)
-- [Give A Star](#star-give-a-star)
+![](./public/image/screen.png)
 
-</details>
+## View live preview [here](https://abusaid.netlify.app/).
 
-## :bangbang: Folder Structure
+---
 
-Here is the folder structure of this app.
+## Table of Contents :scroll:
+
+- [Sections](#sections-bookmark)
+- [Demo](#demo-movie_camera)
+- [Installation](#installation-arrow_down)
+- [Getting Started](#getting-started-dart)
+- [Usage](#usage-joystick)
+- [Deployment](#deployment-rocket)
+- [Tutorials](#tutorials-wrench)
+  - [Gmail App Password Setup](#gmail-app-password-setup)
+  - [Create a Telegram Bot](#create-a-telegram-bot)
+  - [Fetching Blog from dev.to](#fetching-blog-from-devto)
+- [Packages Used](#packages-used-package)
+
+---
+
+# Sections :bookmark:
+
+- HERO SECTION
+- ABOUT ME
+- EXPERIENCE
+- SKILLS
+- PROJECTS
+- EDUCATION
+- BLOG
+- CONTACTS
+
+---
+
+# Installation :arrow_down:
+
+### You will need to download Git and Node to run this project
+
+- [Git](https://git-scm.com/downloads)
+- [Node](https://nodejs.org/en/download/)
+
+#### Make sure you have the latest version of both Git and Node on your computer.
 
 ```bash
-space-portfolio/
-  |- app/
-    |-- favicon.ico
-    |-- globals.css
-    |-- layout.tsx
-    |-- page.tsx
-  |- components/
-    |-- main/
-        |--- encryption.tsx
-        |--- footer.tsx
-        |--- hero.tsx
-        |--- navbar.tsx
-        |--- projects.tsx
-        |--- skills.tsx
-        |--- star-background.tsx
-    |-- sub/
-        |--- hero-content.tsx
-        |--- project-card.tsx
-        |--- skill-data-provider.tsx
-        |--- skill-text.tsx
-  |- config/
-    |-- index.ts
-  |- constants/
-    |-- index.ts
-  |- lib/
-    |-- motion.ts
-    |-- utils.ts
-  |- public/
-    |-- projects/
-    |-- skills/
-    |-- videos/
-    |-- hero-bg.svg
-    |-- lock-main.png
-    |-- lock-top.png
-    |-- logo.png
-  |- .eslintrc.json
-  |- .gitignore
-  |- next.config.js
-  |- package-lock.json
-  |- package.json
-  |- postcss.config.js
-  |- tailwind.config.ts
-  |- tsconfig.json
+node --version
+git --version
 ```
 
-<br />
+## <br />
 
-## :toolbox: Getting Started
+# Getting Started :dart:
 
-1. Make sure **Git** and **NodeJS** is installed.
+### Fork and Clone the repo
 
-2. Clone this repository to your local computer.
+To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
-3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
+```bash
+git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
 
-4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`.
+cd developer-portfolio
+```
 
-## :camera: Screenshots:
+### Install packages from the root directory
 
-![Modern UI/UX](/.github/images/img1.png "Modern UI/UX")
+```bash
+npm install
+# or
+yarn install
+```
 
-![Showcase your skills](/.github/images/img2.png "Showcase your skills")
+Then, run the development server:
 
-![Built with Typescript](/.github/images/img3.png "Built with Typescript")
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-![Showcase your projects](/.github/images/img4.png "Showcase your projects")
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## :gear: Tech Stack
+---
 
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Netlify](https://skillicons.dev/icons?i=netlify "Netlify")](https://netlify.app/ "Netlify") [![Three.js](https://skillicons.dev/icons?i=threejs "Three.js")](https://threejs.org/ "Three.js")
+### Running with Docker Compose
 
-## :wrench: Stats
+1. **Build Docker Image and Run Container**:
+    ```bash
+    docker-compose up --build
+    ```
 
-[![Stats for Space Portfolio](/.github/images/stats.svg "Stats for Space Portfolio")](https://pagespeed.web.dev/analysis/https-spaceportfolio-netlify-app/2efbmg117d "Stats for Space Portfolio")
+2. **Access the Application**:
+    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
 
-## :raised_hands: Contribute
+---
 
-You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
+### Building the Docker Image
 
-## :gem: Acknowledgements
+1. **Build the Docker Image using Dockerfile.dev**:
 
-Useful resources and dependencies that are used in Space Portfolio.
+    ```bash
+    docker build -t nextjs-app -f Dockerfile.dev .
+    ```
 
-- [@heroicons/react](https://www.npmjs.com/package/@heroicons/react): ^2.1.1
-- [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^9.93.0
-- [@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber): ^8.15.13
-- [clsx](https://www.npmjs.com/package/clsx): ^2.1.0
-- [framer-motion](https://www.npmjs.com/package/framer-motion): ^10.17.12
-- [next](https://www.npmjs.com/package/next): 14.0.4
-- [react](https://www.npmjs.com/package/react): ^18
-- [react-dom](https://www.npmjs.com/package/react-dom): ^18
-- [react-icons](https://www.npmjs.com/package/react-icons): ^5.0.1
-- [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer): ^9.5.3
-- [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^2.2.0
-- [three](https://www.npmjs.com/package/three): ^0.160.0
-- [@types/node](https://www.npmjs.com/package/@types/node): ^20
-- [@types/react](https://www.npmjs.com/package/@types/react): ^18
-- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^18
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.0.1
-- [eslint](https://www.npmjs.com/package/eslint): ^8
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 14.0.4
-- [postcss](https://www.npmjs.com/package/postcss): ^8
-- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
-- [typescript](https://www.npmjs.com/package/typescript): ^5
+2. **Running the Docker Container**:
 
-## :coffee: Buy Me a Coffee
+    ```bash
+    docker run -p 3000:3000 nextjs-app
+    ```
 
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/sanidhy "Buy me a Coffee")
+3. **Access the Application**:
+    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
 
-## :rocket: Follow Me
+---
 
-[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Check+out+this+amazing+app:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fspace-portfolio "Tweet")
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCNAz_hUVBG2ZUN8TVm0bmYw)](https://www.youtube.com/@OPGAMER. "Subscribe my YouTube Channel")
+# Usage :joystick:
 
-## :books: Learn More
+Please create a new `.env` file from `.env.example` file.
 
-To learn more about Next.js, take a look at the following resources:
+Eg:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+NEXT_PUBLIC_GTM =
+NEXT_PUBLIC_APP_URL =
+TELEGRAM_BOT_TOKEN =
+TELEGRAM_CHAT_ID =
+GMAIL_PASSKEY =
+EMAIL_ADDRESS =
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
 
-## :page_with_curl: Deploy on Vercel
+Eg:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```javascript
+export const personalData = {
+  name: "ABU SAID",
+  profile: "/profile.png",
+  designation: "Full-Stack Software Developer",
+  description: "My name is ABU SAID....",
+  email: "abusaid7388@gmail.com",
+  phone: "+8801608797655",
+  address: "Dhaka, Bangladesh",
+  github: "https://github.com/said7388",
+  facebook: "https://www.facebook.com/abusaid.riyaz/",
+  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
+  twitter: "https://twitter.com/said7388",
+  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
+  leetcode: "https://leetcode.com/said3812/",
+  devUsername: "said7388",
+  resume: "...",
+};
+```
 
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`devUsername` is used for fetching blog posts from `dev.to`.
 
-## :star: Give A Star
+---
 
-You can also give this repository a star to show more people and they can use this repository.
+# Deployment :rocket:
 
-## :star2: Star History
+Deploying the app to platforms like Vercel or Netlify is quick and easy.
 
-<a href="https://star-history.com/#sanidhyy/space-portfolio&Timeline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
-</picture>
-</a>
+## Deploying to Vercel:
 
-<br />
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+1. **Sign up or log in** to [Vercel](https://vercel.com/).
+2. Once logged in, click on **"New Project"**.
+3. Select your **GitHub repo** (the one that contains your forked project) and click **Import**.
+4. Configure your environment variables in the Vercel dashboard by adding each key from your `.env` file.
+   - E.g., `NEXT_PUBLIC_GTM`, `NEXT_PUBLIC_APP_URL`, `TELEGRAM_BOT_TOKEN`, etc.
+5. Click on **Deploy**. Vercel will automatically detect your Next.js app and build it.
+6. Once the deployment is complete, you can visit your live website!
+
+### Updating After Deployment
+
+Whenever you push changes to your GitHub repo, Vercel will automatically redeploy the app, keeping your portfolio up-to-date.
+
+## Deploying to Netlify:
+
+1. **Sign up or log in** to [Netlify](https://www.netlify.com/).
+2. In the **Netlify Dashboard**, click **"New site from Git"**.
+3. Connect your **GitHub** account and select your repo.
+4. Configure your environment variables by going to **Site Settings > Build & Deploy > Environment** and adding keys from your `.env` file.
+5. Click **Deploy Site**. Netlify will build and deploy your portfolio.
+
+---
+
+# Tutorials :wrench:
+
+## Gmail App Password Setup
+
+1. **Log in to your Google Account** at [https://myaccount.google.com/](https://myaccount.google.com/).
+2. Navigate to **Security** from the left sidebar.
+3. Scroll down to the **"Signing in to Google"** section and make sure **2-Step Verification** is turned ON.
+4. Once 2-Step Verification is enabled, you'll see an option for **App Passwords**.
+5. Click on **App Passwords**. You may need to enter your Google account password again.
+6. In the **Select app** dropdown, choose "Mail", and for **Select device**, choose "Other (Custom name)" and name it appropriately (e.g., "Portfolio").
+7. Click **Generate**. A 16-character app password will be displayed. Save this password for later use in your environment variables (e.g., `GMAIL_PASSKEY`).
+
+## Create a Telegram Bot
+
+1. **Open Telegram** and search for the user **@BotFather**.
+2. Start a chat with BotFather and use the `/newbot` command to create a new bot.
+3. Choose a name for your bot.
+4. Set a unique username for your bot (must end with `bot`, e.g., `PortfolioAssistantBot`).
+5. Once your bot is created, BotFather will send you a **Token**. Save this token, as you will need it for your environment variables (e.g., `TELEGRAM_BOT_TOKEN`).
+6. To get your chat ID:
+   - Open your bot in Telegram and send it a message.
+   - Visit the following URL in your browser, replacing `BOT_TOKEN` with your actual bot token:  
+     `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
+   - Look for the `chat` object in the response, which contains your **chat ID** (you can use this value for `TELEGRAM_CHAT_ID`).
+
+## Fetching Blog from dev.to
+
+To display your blog posts from dev.to on the portfolio:
+
+1. Set your `devUsername` in the `utils/data.js` file to your dev.to username.
+2. The application will automatically fetch your latest blog posts and display them in the **BLOG** section.
+3. Ensure your blogs are publicly visible on dev.to, and the application will fetch them using the dev.to API.
+
+---
+
+# Packages Used :package:
+
+|   Used Package List    |
+| :--------------------: |
+|    @emailjs/browser    |
+|  @next/third-parties   |
+|         axios          |
+|      lottie-react      |
+|          next          |
+|       nodemailer       |
+|         react          |
+|       react-dom        |
+|   react-fast-marquee   |
+| react-google-recaptcha |
+|      react-icons       |
+|     react-toastify     |
+|         sharp          |
+|          sass          |
+|      tailwindcss       |
+
+---
+
+# FAQ:
+
+1. For those facing the issue of "`next` is not recognized as an internal or external command, operable program or batch file."
+
+Run the following command:
+
+```bash
+
+npm install -g next
+
+```
+
+This installs Next.js globally
+
+then do the usual `npm run dev`
